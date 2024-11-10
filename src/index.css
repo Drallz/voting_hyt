@@ -6,8 +6,127 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.App-header {
+  background-image: url('./K.gif'); /* Reference to image in src folder */
+  background-size: cover;   /* Cover the entire header area */
+  background-position: center center;  /* Center the image */
+  color: white; /* Make text stand out against background */
+  padding: 20px;
+  text-align: center;
+  background-attachment: fixed; /* Keep the background fixed when scrolling */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1 {
+  padding-top: 0;           /* Remove default top padding */
+  margin-top: 50px;            /* Reset margin-top to avoid overlap with the image */
+  margin-bottom: 20px;      /* Add space below the heading */
+  text-align: center;
+  font-family: 'Charles', serif;
+  font-size: 4rem;  /* Adjust size */
+  text-transform: uppercase;  /* All caps */
+  color: #daa319;       /* Center align the text */
+}
+
+/* Styling for the image */
+.awards-image {
+  display: block;           /* Ensure the image is a block element */
+  margin: 0 auto;           /* Center the image horizontally */
+  max-width: 20%;           /* Make the image responsive and smaller */
+  height: auto;             /* Maintain aspect ratio */
+  margin-bottom: 20px;      /* Add space below the image */
+}
+/* General button styling */
+.register-btn, .login-btn {
+  padding: 12px 25px;         /* Add padding around the text */
+  font-size: 16px;            /* Set a readable font size */
+  border: none;               /* Remove default border */
+  border-radius: 5px;         /* Rounded corners */
+  cursor: pointer;           /* Change cursor on hover */
+  transition: all 0.3s ease;  /* Smooth transition for hover effect */
+  margin: 10px 15px;          /* Add space between buttons */
+  text-transform: uppercase;  /* Make the text uppercase */
+}
+
+/* Styling for Register button */
+.register-btn {
+  background-color: #daa319; /* Green color */
+  color: white;              /* White text */
+}
+
+/* Styling for Log In button */
+.login-btn {
+  background-color: #001fba; /* Blue color */
+  color: white;              /* White text */
+}
+
+/* Hover effects */
+.register-btn:hover {
+  background-color: #daa319; /* Darker green */
+  transform: translateY(-3px); /* Lift the button slightly */
+}
+
+.login-btn:hover {
+  background-color: #007bb5; /* Darker blue */
+  transform: translateY(-3px); /* Lift the button slightly */
+}
+
+/* Focus effect (for accessibility) */
+.register-btn:focus, .login-btn:focus {
+  outline: none;             /* Remove the default outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a blue glow */
+}
+
+/* Optional: Center the buttons and ensure they are displayed properly */
+.auth-buttons {
+  text-align: center;       /* Center the buttons */
+  margin-top: 500px;          /* Add spacing above */
+}
+
+/* Style the login form */
+.login-form {
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #878785;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: black; 
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0300ba;
+  color: white;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #007bb5;
+}
+label {
+  color: black; 
+}
+h2 { color: black; }
+
+h3 { color: white; }
+
