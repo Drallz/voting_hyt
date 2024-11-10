@@ -28,22 +28,22 @@ function Register() {
   
     try {
       // Sending the registration request to the backend API
-      const response = await axios.post('http://localhost:5000/register', {
-        fullName,
-        username: registerUsername,
-        password: registerPassword,
-      });
+    //   const response = await axios.post('http://localhost:5000/register', {
+    //     fullName,
+    //     username: registerUsername,
+    //     password: registerPassword,
+    //   });
   
-      if (response.status === 201) {
-        // If the response status is 201, registration was successful
-        console.log('Registration successful:', response.data);
-        // Handle successful registration (e.g., navigate to login, show a success message, etc.)
-      }
-    } catch (error) {
-      // If there's an error in the request (e.g., network issue or validation error)
-      console.error('Error during registration:', error);
-      setError(error.response?.data?.error || 'An error occurred. Please try again later.');
-    }
+    //   if (response.status === 201) {
+    //     // If the response status is 201, registration was successful
+    //     console.log('Registration successful:', response.data);
+    //     // Handle successful registration (e.g., navigate to login, show a success message, etc.)
+    //   }
+    // } catch (error) {
+    //   // If there's an error in the request (e.g., network issue or validation error)
+    //   console.error('Error during registration:', error);
+    //   setError(error.response?.data?.error || 'An error occurred. Please try again later.');
+    // }
   };
   
 
