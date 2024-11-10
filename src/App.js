@@ -1,5 +1,4 @@
 import ints from './ints.png'; // Import the image
-import axios from 'axios';
 import './App.css'; // Import the CSS file
 import React, { useState } from 'react';
 import './App.css';
