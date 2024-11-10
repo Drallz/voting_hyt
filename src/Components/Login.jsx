@@ -18,23 +18,23 @@ function Login() {
         // Clear any previous errors
         setError('');
       
-        try {
-          // Sending the login request to the backend API
-          const response = await axios.post('http://localhost:5000/login', {
-            username,
-            password,
-          });
+        // try {
+        //   // Sending the login request to the backend API
+        //   const response = await axios.post('http://localhost:5000/login', {
+        //     username,
+        //     password,
+        //   });
       
-          if (response.status === 200) {
-            // If the response status is 200, login was successful
-            console.log('Login successful:', response.data);
-            // Handle successful login (e.g., store user data, navigate, etc.)
-          }
-        } catch (error) {
-          // If there's an error in the request (e.g., network issue or login failure)
-          console.error('Error during login:', error);
-          setError(error.response?.data?.error || 'An error occurred. Please try again later.');
-        }
+        //   if (response.status === 200) {
+        //     // If the response status is 200, login was successful
+        //     console.log('Login successful:', response.data);
+        //     // Handle successful login (e.g., store user data, navigate, etc.)
+        //   }
+        // } catch (error) {
+        //   // If there's an error in the request (e.g., network issue or login failure)
+        //   console.error('Error during login:', error);
+        //   setError(error.response?.data?.error || 'An error occurred. Please try again later.');
+        // }
       };
       
 
