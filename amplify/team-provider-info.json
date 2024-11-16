@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-votinghyt-dev-5d508-authRole",
+      "UnauthRoleArn": "arn:aws:iam::536697270500:role/amplify-votinghyt-dev-5d508-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::536697270500:role/amplify-votinghyt-dev-5d508-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-votinghyt-dev-5d508-deployment",
+      "UnauthRoleName": "amplify-votinghyt-dev-5d508-unauthRole",
+      "StackName": "amplify-votinghyt-dev-5d508",
+      "StackId": "arn:aws:cloudformation:us-east-1:536697270500:stack/amplify-votinghyt-dev-5d508/1a0113d0-9f6b-11ef-89ab-0afff2f47e4f",
+      "AmplifyAppId": "d3t20gekccn8k5"
+    },
+    "categories": {
+      "auth": {
+        "votinghytf53beb03": {}
+      }
+    }
+  }
+}

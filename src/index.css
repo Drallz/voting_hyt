@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .App-header {
-  background-image: url('./K.gif'); /* Reference to image in src folder */
+  background-image: url('./R.jpeg'); /* Reference to image in src folder */
   background-size: cover;   /* Cover the entire header area */
   background-position: center center;  /* Center the image */
   color: white; /* Make text stand out against background */
