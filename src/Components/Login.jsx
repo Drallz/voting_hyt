@@ -1,4 +1,5 @@
 import React ,{useState} from "react";
+import { useNavigate } from 'react-router-dom';
 
 //import axios from 'axios';
 
@@ -10,7 +11,7 @@ function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-
+    const navigate = useNavigate();
 
     const handleLoginSubmit = async (e) => {
         e.preventDefault(); // Prevent the form from submitting traditionally
@@ -38,6 +39,14 @@ function Login() {
       };
       
 
+      let goToHome = () => {
+
+
+        navigate('/home');
+
+      }
+
+
 
     return (   <div className="login-form">
         <h2>Login</h2>
@@ -64,7 +73,7 @@ function Login() {
               required
             />
           </div>
-          <button type="submit">Log In</button>
+          <button type="submit" onClick={() => goToHome()}>Log In</button>
         </form>
       </div> );
 }
