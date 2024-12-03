@@ -129,4 +129,20 @@ label {
 h2 { color: black; }
 
 h3 { color: white; }
+p { padding-top: 0;           /* Remove default top padding */
+  margin-top: 20px;            /* Reset margin-top to avoid overlap with the image */
+  margin-bottom: 5px;      /* Add space below the heading */
+  text-align: center;
+  font-family: 'Charles', serif;
+  font-size: 2rem;  /* Adjust size */
+  text-transform: uppercase;  /* All caps */
+  color: #daa319;  }
+
+j { color: rgb(5, 4, 4); 
+    margin-top: 10px;            /* Reset margin-top to avoid overlap with the image */
+  margin-bottom: 4px;      /* Add space below the heading */
+  text-align: center;
+  font-family: 'Charles', serif;
+  font-size: 1rem;  /* Adjust size */
+  text-transform: uppercase;}
 
