@@ -25,7 +25,7 @@ h1 {
   margin-bottom: 20px;      /* Add space below the heading */
   text-align: center;
   font-family: 'Charles', serif;
-  font-size: 4rem;  /* Adjust size */
+  font-size: 2rem;  /* Adjust size */
   text-transform: uppercase;  /* All caps */
   color: #daa319;       /* Center align the text */
 }
