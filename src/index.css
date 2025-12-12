@@ -42,9 +42,13 @@ h1 {
   margin-bottom: 20px;
   text-align: center;
   font-family: 'Charles', serif;
+
   font-size: 4rem;  /* Adjust size */
   text-transform: uppercase;  /* Uppercase text */
   color: #daa319;   /* Golden color */
+  font-size: 2rem;  /* Adjust size */
+  text-transform: uppercase;  /* All caps */
+  color: #daa319;       /* Center align the text */
 }
 
 /* Styling for Image */
@@ -145,7 +149,7 @@ button:hover {
 
 /* Label Styling */
 label {
-  color: black;
+  color: rgb(249, 240, 240);
 }
 
 h2 {
